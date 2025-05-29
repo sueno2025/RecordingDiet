@@ -1,0 +1,7 @@
+*.class
+*.war
+*.log
+.settings/
+bin/
+target/
+.DS_Store
