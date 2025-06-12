@@ -7,6 +7,73 @@ RecordingDiet は、ユーザーごとの体重・BMIを記録・可視化する
 本アプリケーションは **MVCモデル（Model-View-Controller）** に基づいて構成されており、ロジックの分離・保守性の向上を意識して実装しています。
 
 ---
+## 📁 プロジェクト構成
+
+```
+recordingDiet/
+├── .git/
+├── .settings/
+├── build/
+├── src/
+│   └── main/
+│       └── java/
+│           ├── controller/
+│           │   ├── DeleteServlet.java
+│           │   ├── EditServlet.java
+│           │   ├── InputServlet.java
+│           │   ├── LoginServlet.java
+│           │   ├── LogoutServlet.java
+│           │   ├── RegisterServlet.java
+│           │   └── ResultServlet.java
+│           ├── dao/
+│           │   ├── DbConnector.java
+│           │   ├── DietDAO.java
+│           │   └── UserDAO.java
+│           ├── model/
+│           │   ├── Log.java
+│           │   └── User.java
+│           └── util/
+│               ├── PasswordUtil.java
+│               └── SessionUtil.java
+├── webapp/
+│   ├── css/
+│   │   ├── complete.css
+│   │   ├── edit.css
+│   │   ├── input.css
+│   │   ├── login.css
+│   │   ├── register.css
+│   │   └── result.css
+│   ├── images/
+│   │   ├── himan.png
+│   │   ├── himanF.png
+│   │   ├── himanM.png
+│   │   ├── nomal.png
+│   │   ├── nomalF.png
+│   │   ├── nomalM.png
+│   │   ├── yase.png
+│   │   ├── yaseF.png
+│   │   └── yaseM.png
+│   ├── META-INF/
+│   │   ├── context.xml
+│   │   └── MANIFEST.MF
+│   └── WEB-INF/
+│       ├── classes/
+│       ├── lib/
+│       ├── view/
+│       │   ├── created_account.jsp
+│       │   ├── edit.jsp
+│       │   ├── input.jsp
+│       │   ├── login.jsp
+│       │   ├── register.jsp
+│       │   └── result.jsp
+│       └── web.xml
+├── .classpath
+├── .gitignore
+├── .project
+├── recordingDiet.war
+└── README.md
+```
+---
 
 ## 使用技術
 
