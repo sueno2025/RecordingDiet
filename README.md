@@ -141,8 +141,8 @@ recordingDiet/
 
 ---
 
-## テストユーザー（公開時用）
-
+## アプリへのリンク、及びテストユーザー（公開時用）
+url:http://153.121.37.230:8080/recordingDiet/
 | ID     | Password |
 |--------|----------|
 | testA  | test     |
